@@ -1,0 +1,41 @@
+{
+  "name": "typography-theme-anonymous",
+  "version": "0.15.10",
+  "description": "A theme for Typography.js inspired by the typography of the Anonymous Pro",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/leimonio/typography-theme-anonymous",
+  "bugs": {
+    "url": "https://github.com/leimonio/typography-theme-anonymous/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leimonio/typography-theme-anonymous.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist/",
+    "flow": "flow",
+    "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
+    "watch": "babel -w src --out-dir dist/"
+  },
+  "dependencies": {
+    "gray-percentage": "^2.0.0",
+    "typography-breakpoint-constants": "^0.15.10"
+  },
+  "keywords": [
+    "css",
+    "typography",
+    "typography-theme"
+  ],
+  "author": "Konstantinos Leimonis",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-flow-vars": "^0.5.0",
+    "flow": "^0.2.3"
+  }
+}
